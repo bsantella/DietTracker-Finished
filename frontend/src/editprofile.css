@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 10px;
+  text-align: center;
+  background: #433b5c;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.App-body {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  text-align: start;
+  color: black;
+}
+
+.submit {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+}

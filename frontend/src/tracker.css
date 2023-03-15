@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+}
+  
+.App-header {
+    padding: 10px;
+    text-align: center;
+    background: #433b5c;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.App-body {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    color: black;
+}
+
+.box {
+    display: table;
+    justify-content: center;
+    justify-self: center;
+    height: 200px;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.box-child {
+    display: table-row;
+}
+
+.button-group {
+    display: table;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button {
+    display: table-row;
+}
+
+.progress-bar {
+    justify-content: center;
+    justify-self: center;
+}
+
+#userCal::placeholder {
+    color: #dc143c;
+    opacity: 1;
+}
+
+#userProtein::placeholder {
+    color: #00695c;
+    opacity: 1;
+}
+
+#userCarb::placeholder {
+    color: #ef6c00;
+    opacity: 1;
+}
+
+#userFat::placeholder {
+    color: #6a1b9a;
+    opacity: 1;
+}
